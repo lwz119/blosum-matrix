@@ -1,11 +1,12 @@
 ##### Please load python/3.5.2 for running in terminal
+##### A version without using numpy library
 
 ##### Step 1 #####
 # Ask user for input of a multiple sequence alignment file
 
 import sys
 import math #for calculation functions
-input_file = sys.argv[1] ###need to replace with sys.argv[1] 
+input_file = sys.argv[1] #read file
 
 seq_align_name = []
 seq_align = []
